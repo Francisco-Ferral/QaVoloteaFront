@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Validate cities into countries field" skipped="0" tests="1" time="29.67" timestamp="2022-09-11 04:59:24"><testcase name="Check the countries' cities"><failure message="&#10;Expected: is &quot;22 Ciudades&quot;&#10;     but: was &quot;22 Cities&quot;" type="java.lang.AssertionError">
+Expected: is "22 Ciudades"
+     but: was "22 Cities"</failure><system-err>
+Expected: is "22 Ciudades"
+     but: was "22 Cities"&#13;
+com.volotea.qa.steps.Origin.CitiesSteps.countrySCitiesMustBeShownUp(CitiesSteps.java:19)&#13;
+✽.Country's cities must be shown up 22 Ciudades(src/test/resources/features/Origin/cities.feature:11)&#13;
+</system-err></testcase></testsuite>

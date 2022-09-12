@@ -1,0 +1,358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="b4a9b403f07ff4c073b0c7ef6258436ef1a810770b35d2544f27374e2d269dcc.html">Validate The Group Reservation Link</a></span>
+                > <span class="truncate-60"><a
+                    href="44454ed47c01c4ae55b06c4f56612f1397b44296066a1d7419fa6f5544764378.html">validate the activation of the group reservation link with more than nine passengers. </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-09-2022 21:00</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Validate The Group Reservation Link </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As QAA<br />
+I want to reserve more than nine tickets<br />
+To validate the group reservation link
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: validate the quantity of adult passenger pre selected.
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">validate the activation of the group reservation link with more than nine passengers.
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">When user input ten '&lt;Adults&gt;' and '&lt;Children&gt;' passengers<br>Then the group reservation link must be enabled Reservas de grupos</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected: an element that is visible but: no matching element found by xpath: //span[@class='v7-rounded__text v7-rounded__text--xs']</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.volotea.qa.questions.GroupReservation.answeredBy(GroupReservation.java:14)<br />com.volotea.qa.questions.GroupReservation.answeredBy(GroupReservation.java:11)<br />com.volotea.qa.steps.Passenger.GroupReservationSteps.theGroupReservationLinkMustBeEnabled(GroupReservationSteps.java:25)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource5650987872006102212.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="995d5fc3e90444148db9d99bb025d7aa71b93c3eca2ede7635c08f88fa30c8fb.png" title="Given user on the site" width="1920"/>
+                <img src="1fa36063b59b17dd949cbdf85ad3c9e535403ace9cbd553d41af167158c659d7.png" title="Given user on the site" width="1920"/>
+                <img src="995d5fc3e90444148db9d99bb025d7aa71b93c3eca2ede7635c08f88fa30c8fb.png" title="Volotea user open browser" width="1920"/>
+                <img src="1c2aacf2b903b760e7491ebafe0f03fe31572117cd9305d759b55cdf62641450.png" title="Volotea user open browser" width="1920"/>
+                <img src="995d5fc3e90444148db9d99bb025d7aa71b93c3eca2ede7635c08f88fa30c8fb.png" title="Volotea user opens the https://volotea.com" width="1920"/>
+                <img src="73db6c4b327d2146cfb5a05e98dfb0c97f17551c22c5c2e8d3fcbcd5b54698e1.png" title="Volotea user opens the https://volotea.com" width="1920"/>
+                <img src="1c2aacf2b903b760e7491ebafe0f03fe31572117cd9305d759b55cdf62641450.png" title="Volotea user accept cookies" width="1920"/>
+                <img src="1fa36063b59b17dd949cbdf85ad3c9e535403ace9cbd553d41af167158c659d7.png" title="Volotea user accept cookies" width="1920"/>
+                <img src="1c2aacf2b903b760e7491ebafe0f03fe31572117cd9305d759b55cdf62641450.png" title="Volotea user clicks on Accept cookies" width="1920"/>
+                <img src="46b070b081abcd45eac44e9e9f1cca777b5b45b36c3421a25df54d99c4ab392b.png" title="Volotea user clicks on Accept cookies" width="1920"/>
+                <img src="1fa36063b59b17dd949cbdf85ad3c9e535403ace9cbd553d41af167158c659d7.png" title="When user click on passenger field" width="1920"/>
+                <img src="a780afab127cd140424f246a6818236a0d0f61cd8a2e3bb2cec65cf6e4597cd0.png" title="When user click on passenger field" width="1920"/>
+                <img src="8393e35c104961a98e593ed4170f157e61c1934b3831c4b9ba66f251f2787e6a.png" title="Volotea user select passenger" width="1920"/>
+                <img src="a780afab127cd140424f246a6818236a0d0f61cd8a2e3bb2cec65cf6e4597cd0.png" title="Volotea user select passenger" width="1920"/>
+                <img src="5545640acfcee53d6f857cfe579251ef4ee813ef9b872f318b67b983dc2f85dc.png" title="Volotea user clicks on Click on passenger button" width="1920"/>
+                <img src="115ffc6a8774f3baea7ed1842b5c5f80d3fcf14b71134325ef9bc0e0f7527431.png" title="Volotea user clicks on Click on passenger button" width="1920"/>
+                <img src="27a900ceb865436b0a80fa42f036f3e2a38cd6a2a4c6963663de2cbfeac15427.png" title="When user input ten '5' and '4' passengers" width="1920"/>
+                <img src="50156f65b23e1fde95d1a7f2ae97fe56602d5d259deb54c0996f006a002b20a5.png" title="When user input ten '5' and '4' passengers" width="1920"/>
+                <img src="b28a88dbf6961b8be4f157d1ae1346eb51a2231ff9be501261010b6d33641701.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="ffbeb28023ce4b77a3db314ef12c48e5dc5bd558160afc4ac3a92cba6c4bc691.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="b28a88dbf6961b8be4f157d1ae1346eb51a2231ff9be501261010b6d33641701.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="2c607fa1822545022b007857fadb8e5ad851b8306a89f210f5aed3a3bfeae488.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="ffbeb28023ce4b77a3db314ef12c48e5dc5bd558160afc4ac3a92cba6c4bc691.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="92cb569690ea9b1d8dcafaca27819f21868718c08df59196fa2c7fa0aea44a7b.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="ffbeb28023ce4b77a3db314ef12c48e5dc5bd558160afc4ac3a92cba6c4bc691.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="045137b852fb92f611aeddfab4c4fbd848e98cdb60ceb18b632a39b331b87c39.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="92cb569690ea9b1d8dcafaca27819f21868718c08df59196fa2c7fa0aea44a7b.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="6a5484e6ef8aa45c26f386d5fb24f419b716e47ea8cd41a4bb41e7ee1cc5218b.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="92cb569690ea9b1d8dcafaca27819f21868718c08df59196fa2c7fa0aea44a7b.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="107bcb15da71fb2855509f6b5a5a243f364e04e3fd72c742083690d9b6f1de58.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="6a5484e6ef8aa45c26f386d5fb24f419b716e47ea8cd41a4bb41e7ee1cc5218b.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="84663b230d0bb59faf25cdd6cdfeec6148ffd92e4220cb322e0545881f1f1b21.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="6a5484e6ef8aa45c26f386d5fb24f419b716e47ea8cd41a4bb41e7ee1cc5218b.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="53f8ba73315ff434a83d96a70bf16b7bae4b7887dc500cce2ce007c51fa5b965.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="84663b230d0bb59faf25cdd6cdfeec6148ffd92e4220cb322e0545881f1f1b21.png" title="Volotea user child passenger" width="1920"/>
+                <img src="96d644f93e4516a420342a046baceb6a1b6d6bd525915e09f0a137d86612affe.png" title="Volotea user child passenger" width="1920"/>
+                <img src="84663b230d0bb59faf25cdd6cdfeec6148ffd92e4220cb322e0545881f1f1b21.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="d4dbf29a3135e0bb3c6fe432caba4f1f66bcb4fff260aff30d3dc4553df5101b.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="96d644f93e4516a420342a046baceb6a1b6d6bd525915e09f0a137d86612affe.png" title="Volotea user child passenger" width="1920"/>
+                <img src="85d2508080b5e400d96c673104121c8bbe12d668d5975cd94cb39cd66f66d572.png" title="Volotea user child passenger" width="1920"/>
+                <img src="96d644f93e4516a420342a046baceb6a1b6d6bd525915e09f0a137d86612affe.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="99ad36837fdac7a7dcefe39b39b80f246e456b557f105bf8bd074b98851663cd.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="85d2508080b5e400d96c673104121c8bbe12d668d5975cd94cb39cd66f66d572.png" title="Volotea user child passenger" width="1920"/>
+                <img src="8c5e9ca6b721ef715c71ca48268de7da1686277227c8002d161849d691a353ba.png" title="Volotea user child passenger" width="1920"/>
+                <img src="85d2508080b5e400d96c673104121c8bbe12d668d5975cd94cb39cd66f66d572.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="cd6cb33c1ecfa760ff2ad9f9122f1b303779719cb8b53049503f86b945704994.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="8c5e9ca6b721ef715c71ca48268de7da1686277227c8002d161849d691a353ba.png" title="Volotea user child passenger" width="1920"/>
+                <img src="50156f65b23e1fde95d1a7f2ae97fe56602d5d259deb54c0996f006a002b20a5.png" title="Volotea user child passenger" width="1920"/>
+                <img src="8c5e9ca6b721ef715c71ca48268de7da1686277227c8002d161849d691a353ba.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="dd7b3febee09996b87a7cc08ae90a7d5f494d5c26e288074b0d4e44543d6d994.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="50156f65b23e1fde95d1a7f2ae97fe56602d5d259deb54c0996f006a002b20a5.png" title="Then the group reservation link must be enabled Reservas de grupos" width="1920"/>
+                <img src="50156f65b23e1fde95d1a7f2ae97fe56602d5d259deb54c0996f006a002b20a5.png" title="Then group reservation should be 'Reservas de grupos'" width="1920"/>
+                <img src="50156f65b23e1fde95d1a7f2ae97fe56602d5d259deb54c0996f006a002b20a5.png" title="Volotea user wait until target is ready" width="1920"/>
+                <img src="50156f65b23e1fde95d1a7f2ae97fe56602d5d259deb54c0996f006a002b20a5.png" title="Volotea user wait until target is ready" width="1920"/>
+                <img src="995d5fc3e90444148db9d99bb025d7aa71b93c3eca2ede7635c08f88fa30c8fb.png" title="Given user on the site" width="1920"/>
+                <img src="1fa36063b59b17dd949cbdf85ad3c9e535403ace9cbd553d41af167158c659d7.png" title="Given user on the site" width="1920"/>
+                <img src="995d5fc3e90444148db9d99bb025d7aa71b93c3eca2ede7635c08f88fa30c8fb.png" title="Volotea user open browser" width="1920"/>
+                <img src="04761ea4719f4e5c50bfccfc8b743a7aa5ebe62ff55082e8913caba7a8c7fc3a.png" title="Volotea user open browser" width="1920"/>
+                <img src="995d5fc3e90444148db9d99bb025d7aa71b93c3eca2ede7635c08f88fa30c8fb.png" title="Volotea user opens the https://volotea.com" width="1920"/>
+                <img src="04761ea4719f4e5c50bfccfc8b743a7aa5ebe62ff55082e8913caba7a8c7fc3a.png" title="Volotea user opens the https://volotea.com" width="1920"/>
+                <img src="53df4127be0a2b46827b5355571154e5fd84ee0ec800abee5035944ceb436278.png" title="Volotea user accept cookies" width="1920"/>
+                <img src="1fa36063b59b17dd949cbdf85ad3c9e535403ace9cbd553d41af167158c659d7.png" title="Volotea user accept cookies" width="1920"/>
+                <img src="53df4127be0a2b46827b5355571154e5fd84ee0ec800abee5035944ceb436278.png" title="Volotea user clicks on Accept cookies" width="1920"/>
+                <img src="987e6f5b53add27d49b31aca76fe16c3a3d60d3826ffee22e551947d49b6f438.png" title="Volotea user clicks on Accept cookies" width="1920"/>
+                <img src="5545640acfcee53d6f857cfe579251ef4ee813ef9b872f318b67b983dc2f85dc.png" title="When user click on passenger field" width="1920"/>
+                <img src="b28a88dbf6961b8be4f157d1ae1346eb51a2231ff9be501261010b6d33641701.png" title="When user click on passenger field" width="1920"/>
+                <img src="5545640acfcee53d6f857cfe579251ef4ee813ef9b872f318b67b983dc2f85dc.png" title="Volotea user select passenger" width="1920"/>
+                <img src="a780afab127cd140424f246a6818236a0d0f61cd8a2e3bb2cec65cf6e4597cd0.png" title="Volotea user select passenger" width="1920"/>
+                <img src="5545640acfcee53d6f857cfe579251ef4ee813ef9b872f318b67b983dc2f85dc.png" title="Volotea user clicks on Click on passenger button" width="1920"/>
+                <img src="a780afab127cd140424f246a6818236a0d0f61cd8a2e3bb2cec65cf6e4597cd0.png" title="Volotea user clicks on Click on passenger button" width="1920"/>
+                <img src="b28a88dbf6961b8be4f157d1ae1346eb51a2231ff9be501261010b6d33641701.png" title="When user input ten '9' and '0' passengers" width="1920"/>
+                <img src="88fdae0ce4f7ef2b2a9af724cfd44b6014c5f25cbc4cf29a2aa73e24b8f7e668.png" title="When user input ten '9' and '0' passengers" width="1920"/>
+                <img src="b28a88dbf6961b8be4f157d1ae1346eb51a2231ff9be501261010b6d33641701.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="ffbeb28023ce4b77a3db314ef12c48e5dc5bd558160afc4ac3a92cba6c4bc691.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="b28a88dbf6961b8be4f157d1ae1346eb51a2231ff9be501261010b6d33641701.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="2c607fa1822545022b007857fadb8e5ad851b8306a89f210f5aed3a3bfeae488.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="ffbeb28023ce4b77a3db314ef12c48e5dc5bd558160afc4ac3a92cba6c4bc691.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="92cb569690ea9b1d8dcafaca27819f21868718c08df59196fa2c7fa0aea44a7b.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="ffbeb28023ce4b77a3db314ef12c48e5dc5bd558160afc4ac3a92cba6c4bc691.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="045137b852fb92f611aeddfab4c4fbd848e98cdb60ceb18b632a39b331b87c39.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="92cb569690ea9b1d8dcafaca27819f21868718c08df59196fa2c7fa0aea44a7b.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="6a5484e6ef8aa45c26f386d5fb24f419b716e47ea8cd41a4bb41e7ee1cc5218b.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="92cb569690ea9b1d8dcafaca27819f21868718c08df59196fa2c7fa0aea44a7b.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="107bcb15da71fb2855509f6b5a5a243f364e04e3fd72c742083690d9b6f1de58.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="6a5484e6ef8aa45c26f386d5fb24f419b716e47ea8cd41a4bb41e7ee1cc5218b.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="84663b230d0bb59faf25cdd6cdfeec6148ffd92e4220cb322e0545881f1f1b21.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="6a5484e6ef8aa45c26f386d5fb24f419b716e47ea8cd41a4bb41e7ee1cc5218b.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="53f8ba73315ff434a83d96a70bf16b7bae4b7887dc500cce2ce007c51fa5b965.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="84663b230d0bb59faf25cdd6cdfeec6148ffd92e4220cb322e0545881f1f1b21.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="172429e67330c7fac7f9b4461dcd1ad7480617a5e303548e2b35289ad8e95105.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="84663b230d0bb59faf25cdd6cdfeec6148ffd92e4220cb322e0545881f1f1b21.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="31488705f2676136b50e2cfa7b196e29db6cc153a0bcc619d1190495f160b920.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="172429e67330c7fac7f9b4461dcd1ad7480617a5e303548e2b35289ad8e95105.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="63c73a5aa1217e51cf13cce012ded86fa8b665b9718b4ad667797d1870b93eaa.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="172429e67330c7fac7f9b4461dcd1ad7480617a5e303548e2b35289ad8e95105.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="51c4e9ee9d102da5968331cfbba246914e26038abcfe31bead1fad1535df2508.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="63c73a5aa1217e51cf13cce012ded86fa8b665b9718b4ad667797d1870b93eaa.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="31a02c69a38d55b2a13b577010d9c2d400dc10e7e0d5a82bc8931d64fd83a36f.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="63c73a5aa1217e51cf13cce012ded86fa8b665b9718b4ad667797d1870b93eaa.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="73d726c467dec4aa6c3fbf14fe8865f2a2cf6efca24aa5987ce765aea01b0ac9.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="31a02c69a38d55b2a13b577010d9c2d400dc10e7e0d5a82bc8931d64fd83a36f.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="88fdae0ce4f7ef2b2a9af724cfd44b6014c5f25cbc4cf29a2aa73e24b8f7e668.png" title="Volotea user adult passenger" width="1920"/>
+                <img src="31a02c69a38d55b2a13b577010d9c2d400dc10e7e0d5a82bc8931d64fd83a36f.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="a6ab8f5dbd4a154cbb0d9a58eab7dca575fc8e6f54593aecfe32044d423c04ba.png" title="Volotea user clicks on Validate passenger quantity" width="1920"/>
+                <img src="88fdae0ce4f7ef2b2a9af724cfd44b6014c5f25cbc4cf29a2aa73e24b8f7e668.png" title="Then the group reservation link must be enabled Reservas de grupos" width="1920"/>
+                <img src="88fdae0ce4f7ef2b2a9af724cfd44b6014c5f25cbc4cf29a2aa73e24b8f7e668.png" title="Then group reservation should be 'Reservas de grupos'" width="1920"/>
+                <img src="88fdae0ce4f7ef2b2a9af724cfd44b6014c5f25cbc4cf29a2aa73e24b8f7e668.png" title="Volotea user wait until target is ready" width="1920"/>
+                <img src="88fdae0ce4f7ef2b2a9af724cfd44b6014c5f25cbc4cf29a2aa73e24b8f7e668.png" title="Volotea user wait until target is ready: <span class='failing-color'>FAILURE</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.12</span>
+</div>
+</body>
+</html>

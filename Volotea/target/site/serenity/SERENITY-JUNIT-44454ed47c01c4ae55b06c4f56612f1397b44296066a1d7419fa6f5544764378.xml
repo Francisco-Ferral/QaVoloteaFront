@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="validate the group reservation link" skipped="0" tests="2" time="47.97" timestamp="2022-09-11 09:00:16"><testcase name="validate the activation of the group reservation link with more than nine passengers."><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //span[@class='v7-rounded__text v7-rounded__text--xs']" type="java.lang.AssertionError">
+Expected: an element that is visible
+     but: no matching element found by xpath: //span[@class='v7-rounded__text v7-rounded__text--xs']</failure><system-err>
+Expected: an element that is visible
+     but: no matching element found by xpath: //span[@class='v7-rounded__text v7-rounded__text--xs']&#13;
+com.volotea.qa.questions.GroupReservation.answeredBy(GroupReservation.java:14)&#13;
+com.volotea.qa.questions.GroupReservation.answeredBy(GroupReservation.java:11)&#13;
+com.volotea.qa.steps.Passenger.GroupReservationSteps.theGroupReservationLinkMustBeEnabled(GroupReservationSteps.java:25)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
