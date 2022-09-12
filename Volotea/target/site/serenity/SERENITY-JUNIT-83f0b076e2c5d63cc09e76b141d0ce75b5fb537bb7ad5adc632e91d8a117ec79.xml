@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="validate the reserve form" skipped="0" tests="1" time="31.2" timestamp="2022-09-11 07:58:09"><testcase name="validate the quantity of adult passenger pre selected."><failure message="&#10;Expected: is &lt;5&gt;&#10;     but: was &lt;1&gt;" type="java.lang.AssertionError">
-Expected: is &lt;5&gt;
-     but: was &lt;1&gt;</failure><system-err>
-Expected: is &lt;5&gt;
-     but: was &lt;1&gt;&#13;
-com.volotea.qa.steps.Passenger.OnePassengerSteps.adultPassengerFieldMustBe(OnePassengerSteps.java:45)&#13;
-✽.adult passenger field must be 5(src/test/resources/features/Passenger/onePassenger.feature:10)&#13;
-</system-err></testcase></testsuite>

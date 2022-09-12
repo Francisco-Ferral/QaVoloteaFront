@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Validate that it can be searched by your IATA" skipped="1" tests="1" time="25.01" timestamp="2022-09-11 09:36:14"><testcase name="Check that the origin field is able to search by cities' IATA codes"><skipped/></testcase></testsuite>
